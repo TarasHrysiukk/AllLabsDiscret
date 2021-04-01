@@ -7,8 +7,9 @@ public class Main {
     public static void main(String[] args) throws IOException {
        // File lab1File = new File("D:\\NULP\\DiscretMoelLabs\\Lab1Prym\\lab1.txt");
         FileWorker fileWorker = new FileWorker();
-        fileWorker.FileWorkerMethod();
-
+        int [][] array = fileWorker.FileWorkerMethod();
+        System.out.println("----------------------------------------");
+       fileWorker.printArrayInt(array);
 
 
        //метод зчитування файлу таке саме в класі файлВоркер
