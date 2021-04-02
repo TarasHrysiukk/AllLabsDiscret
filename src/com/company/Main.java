@@ -5,14 +5,13 @@ import java.io.*;
 public class Main {
     // построчное считывание файла
     public static void main(String[] args) throws IOException {
-       // File lab1File = new File("D:\\NULP\\DiscretMoelLabs\\Lab1Prym\\lab1.txt");
         FileWorker fileWorker = new FileWorker();
         int [][] array = fileWorker.FileWorkerMethod();
         System.out.println("----------------------------------------");
        fileWorker.printArrayInt(array);
-
-
-       //метод зчитування файлу таке саме в класі файлВоркер
+    }
+}
+//метод зчитування файлу таке саме в класі файлВоркер
        /* try {
             File file = new File("D:\\NULP\\DiscretMoelLabs\\Lab1Prym\\lab1.txt");
             //создаем объект FileReader для объекта File
@@ -31,6 +30,4 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }*/
-        //кінець методі зчитування файлу
-    }
-}
+//кінець методі зчитування файлу
