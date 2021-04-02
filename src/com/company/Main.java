@@ -7,11 +7,11 @@ public class Main {
     public static void main(String[] args) throws IOException {
         FileWorker fileWorker = new FileWorker();
         PrymMethod prym = new PrymMethod();
-
+        System.out.println("зчитаний файл_________________________");
         int [][] array = fileWorker.FileWorkerMethod();
-        System.out.println("зчитаний файл вгорі___________ масив з файлу внизу");
+        System.out.println("масив з файлу_________________________");
        fileWorker.printArrayInt(array);
-        System.out.println("___________Алгоритм Прима___________");
+        System.out.println("Алгоритм Прима_________________________");
        prym.primMST(array);
     }
 }
