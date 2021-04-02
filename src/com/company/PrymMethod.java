@@ -84,29 +84,4 @@ public class PrymMethod {
         // print the constructed MST
         printMST(parent, graph);
     }
-
-    public static void main(String[] args)
-    {
-        /* Let us create the following graph
-        2 3
-        (0)--(1)--(2)
-        | / \ |
-        6| 8/ \5 |7
-        | /     \ |
-        (3)-------(4)
-            9         */
-        PrymMethod t = new PrymMethod();
-        int graph[][] = new int[][] { { 0, 3, 0, 0, 0,34, 0 , 80 },
-                {  3, 0, 0, 1, 0,0, 0 , 68 },
-                {  0, 3, 0, 0, 23,0, 12 , 0 },
-                {  0 ,1, 0 ,0 ,53, 0, 0 ,39 },
-                { 0 ,0 ,23 ,53 ,0 ,0 ,68 ,14 } ,
-                {34 ,0 ,0 ,0 ,0, 0 ,0 ,25},
-                { 0 ,0 ,12 ,0 ,68 ,0 ,0 ,99 } ,
-                {80, 68, 0 ,39, 14, 25, 99, 0 }};
-
-        // Print the solution
-        t.primMST(graph);
-    }
-
 }
