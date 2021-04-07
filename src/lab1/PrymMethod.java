@@ -1,7 +1,5 @@
-package com.company;
-import java.util.*;
+package lab1;
 import java.lang.*;
-import java.io.*;
 
 import static java.util.Arrays.fill;
 
@@ -34,7 +32,7 @@ public class PrymMethod {
 
     // Функція побудови та друку MST для представленого графіка
     // з використанням  матриці суміжності
-    void primMST(int graph[][])
+    public void primMST(int graph[][])
     {
         // Масив для зберігання побудованого MST
         int parent[] = new int[V];

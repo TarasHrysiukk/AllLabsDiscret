@@ -1,9 +1,6 @@
-package com.company;
+package lab1;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class FileWorker {
 
